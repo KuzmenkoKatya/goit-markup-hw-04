@@ -227,7 +227,8 @@
     font-size: 16px;
     line-height: 1.19;  } 
     .our {padding-top: 30px;
-          padding-bottom: 30px;}
+          padding-bottom: 30px;
+        background-color: white;}
 
     .section-our-team {padding-top: 94px;
                        padding-bottom: 94px;
@@ -246,7 +247,7 @@
 .masters-social-link 
 {width: 44px;
 height: 44px;
-background-color:#f5f4fa;
+background-color:var(--primary-background-color);
 display: flex;
 border-radius: 50%;
 justify-content: center;
@@ -265,7 +266,7 @@ margin-top: 16px;
 
 .masters-social-item + .masters-social-item {margin-left: 10px;}
 .masters-social-item {list-style-type: none;}
-.masters-social-icon {fill: #afb1b8;}
+.masters-social-icon {fill: var(--sacondary-white-color);}
 .masters-social-icon {color: var(--primary-text-color);}
     
 /* Футер */  
