@@ -251,7 +251,7 @@ justify-content: center;}
 
 .masters-social-item + .masters-social-item {margin-left: 10px;}
 
-.masters-social-icon {fill: var(--primary-text-color);}
+.masters-social-icon {fill: currentColor;}
 
     
 /* Футер */  
