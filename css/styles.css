@@ -185,7 +185,18 @@
 
     .advantage-site-nav .list 
     {width: calc(100% / 4 - 30px);
-    margin-left: 30px;    }
+    margin-left: 30px;}
+
+    .list-item::before 
+    {display: block;
+      content: ;
+      height: 120px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-color: #f5f4fA;}
+    .list-item: :nth-child(1)::before 
+    {background-image:url(../goit-markup-hw-04/images/icons.svg#icon-antenna);}
 
 /* Чем мы занимаемся */
    .directions-photo {display: block;}
@@ -254,7 +265,7 @@ margin-top: 16px;
 
 .masters-social-item + .masters-social-item {margin-left: 10px;}
 .masters-social-item {list-style-type: none;}
-.masters-social-icon {fill: var(--primary-text-color);}
+.masters-social-icon {fill: #afb1b8;}
 .masters-social-icon {color: var(--primary-text-color);}
     
 /* Футер */  
