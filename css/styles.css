@@ -255,7 +255,7 @@ margin-top: 16px;
 .masters-social-item + .masters-social-item {margin-left: 10px;}
 .masters-social-item {list-style-type: none;}
 .masters-social-icon {fill: tomato;}
-
+.masters-social-icon {color: var(--primary-text-color);}
     
 /* Футер */  
    .footer {background-color: var(--footer-bacground-color);
