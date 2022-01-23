@@ -129,7 +129,8 @@
 
 .header-contacts {align-items: center;
                   display: flex;
-                  color: var(--primary-text-color);}
+                  color: var(--primary-text-color);
+                  text-decoration: none;}
 
   
 /* Герой */    
@@ -213,8 +214,7 @@
 
    .our-team .our-team-position {
     font-size: 16px;
-    line-height: 1.19;
-  padding-bottom: 16px;} 
+    line-height: 1.19;  } 
     .our {padding-top: 30px;
           padding-bottom: 30px;}
 
@@ -248,7 +248,8 @@ align-items: center;}
 
 .masters-social-list 
 {display: flex;
-justify-content: center;}
+justify-content: center;
+margin-top: 16px;}
 
 .masters-social-item + .masters-social-item {margin-left: 10px;}
 .masters-social-item {list-style-type: none;}
