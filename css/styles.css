@@ -284,24 +284,24 @@ margin-top: 16px;
  justify-content: center;}
 
  .clients-link 
- {
-  background-color: var(--sacondary-background-color);
-  display: flex;
+ {display: flex;
   display: block;
   justify-content: center;
   align-items: center;
-  border-radius: #afb1b8 1px;}
+  width: 170px;
+  height: 92px;
+  border: #afb1b8 solid 1px;
+  border-radius: 4px;
+  background-color: var(--sacondary-background-color);}
 
   .clients-link:hover .client-icon,
   .clients-link:focus .client-icon {fill: #2196f3;}
 
-.client-item + .client-item
-{margin-left: 30px;}
+.client-item + .client-item {margin-left: 30px;}
 
 .client-item {width: 170px; height: 92px; margin-top: 50px;}
 
-.client-icon
-{fill: #afb1b8;}
+.client-icon {fill: currentColor; width: 106px; height: 60px;}
 
 
 
