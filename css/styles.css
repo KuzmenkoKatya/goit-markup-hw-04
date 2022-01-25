@@ -291,7 +291,7 @@ margin-top: 16px;
   align-items: center;
   
   background-color: var(--sacondary-background-color);
-  width: 106px; height: 60px;}
+  }
   .clients-link:hover .client-item,
   .clients-link:focus .client-item {border-color: #afb1b8;}
   .clients-link:hover .client-item,
@@ -314,7 +314,7 @@ margin-top: 16px;
 
 .client-icon {fill: currentColor; 
   background-position: center;
-  object-fit: contain;
+  width: 106px; height: 60px;
 }
 
 
