@@ -285,8 +285,8 @@ margin-top: 16px;
  /*background-position: 50% 50%;*/}
 
  .clients-link 
- {display: flex;
-  display: block;
+ {display: inline-block;
+  
   justify-content: center;
   align-items: center;
   content: ;
