@@ -289,7 +289,7 @@ margin-top: 16px;
   display: block;
   justify-content: center;
   align-items: center;
-  
+  content: ;
   background-color: var(--sacondary-background-color);
   }
   .clients-link:hover .client-item,
