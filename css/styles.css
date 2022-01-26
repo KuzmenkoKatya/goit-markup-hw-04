@@ -302,7 +302,7 @@ margin-top: 16px;
   color: #afb1b8;}
   
  .client-link:hover ,
- .client-link:focus  {fill: #2196f3;}
+ .client-link:focus  {border-color: #2196f3;}
   .client-link:hover .client-icon,
   .client-link:focus .client-icon {fill: #2196f3;}
 
