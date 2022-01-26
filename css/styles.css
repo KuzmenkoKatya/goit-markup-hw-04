@@ -338,6 +338,44 @@ background-size: cover;}
     .futer-item .list:not(:first-child){margin-top: 9px;}
 
 
+    .footer-container {
+      display: flex;
+      align-items: baseline;}
+    .footer-start {}
+    .footer-center 
+    {display: block; margin-left: 70px;}
+
+    .join-title 
+    { display: block;
+      font-size: inherit;
+      font-weight: 700;
+      line-height: 1.14;
+      text-transform: uppercase;
+      color: var(--sacondary-white-color);
+      margin-bottom: 20px;}
+
+    .footer-social-icons {display: flex;} 
+    
+    .footer-icons-list {display: flex;}
+    
+    .footer-icon-link 
+     {display: flex; 
+      width: 44px; height: 44px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      color: var(--sacondary-white-color)}
+    
+    .footer-icon-item:not(:last-child) {margin-right: 10px;}
+    
+    .footer-icon {fill: currentColor;}
+    
+    .footer-icon-link:hover,
+    .footer-icon-link:focus {background-color: var(--accent-color);}
+    
+
+
 /* Кнопки */
     .hero-button {
     font-weight: 700;
