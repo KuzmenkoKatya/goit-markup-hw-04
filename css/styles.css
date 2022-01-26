@@ -187,6 +187,16 @@
     {width: calc(100% / 4 - 30px);
     margin-left: 30px;}
 
+    .features-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 270px;
+      height: 120px;
+      background: var(--primary-background-color);
+      border-radius: 4px;
+      margin-bottom: 30px;}
+
     /*.list-item::before 
     {display: block;
       content: ;
@@ -341,7 +351,7 @@ background-size: cover;}
     .footer-container {
       display: flex;
       align-items: baseline;}
-    .footer-start {}
+    
     .footer-center 
     {display: block; margin-left: 70px;}
 
