@@ -187,7 +187,7 @@
     {width: calc(100% / 4 - 30px);
     margin-left: 30px;}
 
-    .list-item::before 
+    /*.list-item::before 
     {display: block;
       content: ;
       height: 120px;
@@ -196,7 +196,7 @@
       background-position: center;
       background-color: #f5f4fA;}
     .list-item:nth-child(1)::before 
-    {background-image:url(../goit-markup-hw-04/images/icons.svg#icon-antenna);}
+    {background-image:url(../goit-markup-hw-04/images/icons.svg#icon-antenna);}*/
 
 /* Чем мы занимаемся */
    .directions-photo {display: block;}
@@ -210,7 +210,6 @@
    .directions-photos .list 
    {margin-left: 30px;
     text-align: center;}
-
 
 /* Наша команда */
 
@@ -294,17 +293,17 @@ margin-top: 16px;
   border-radius: 4px;
   align-items: center;}
 
- .clients-link 
+ .client-link 
  {display: block;
-   justify-content: center;
+  justify-content: center;
   align-items: center; 
   color:#afb1b8; 
   background-color: var(--sacondary-background-color);}
   
- .clients-link:hover ,
- .clients-link:focus  {fill: #2196f3;}
-  .clients-link:hover .client-icon,
-  .clients-link:focus .client-icon {fill: #2196f3;}
+ .client-link:hover ,
+ .client-link:focus  {fill: #2196f3;}
+  .client-link:hover .client-icon,
+  .client-link:focus .client-icon {fill: #2196f3;}
 
 .client-icon {  
   fill: currentColor; 
