@@ -288,17 +288,18 @@ margin-top: 16px;
 
  .client-item 
  {width: 170px;
-  height: 92px; 
-  border: #afb1b8 solid 1px;
-  border-radius: 4px;
+  height: 92px;   
   align-items: center;}
 
  .client-link 
- {display: block;
+ {display: flex;
   justify-content: center;
-  align-items: center; 
-  color:#afb1b8; 
-  background-color: var(--sacondary-background-color);}
+  align-items: center;
+  border: #afb1b8 solid 1px;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  color: #afb1b8;}
   
  .client-link:hover ,
  .client-link:focus  {fill: #2196f3;}
@@ -309,7 +310,8 @@ margin-top: 16px;
   fill: currentColor; 
   background-position: center; 
   align-items: center;
-  background-position: 50% 50%;}
+  background-position: 50% 50%;
+background-size: cover;}
 
 
 
