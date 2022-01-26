@@ -295,7 +295,8 @@ margin-top: 16px;
   align-items: center;}
 
  .clients-link 
- {justify-content: center;
+ {display: block;
+   justify-content: center;
   align-items: center; 
   color:#afb1b8; 
   background-color: var(--sacondary-background-color);}
