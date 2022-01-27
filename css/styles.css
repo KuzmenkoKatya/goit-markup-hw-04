@@ -24,7 +24,7 @@
     button {cursor: pointer;}
 
     img {display: block;
-         max-width: 100%;
+         max-width: 100%;        
          height: auto;}
 
   .list {list-style: none;}
@@ -469,8 +469,7 @@ background-size: cover;}
   margin-bottom: 50px;}
   .gallery-nav .list{text-align: center;}    
   .gallery-nav>li:nth-child(n + 2) {margin-left: 8px;}    
- 
-  .card {outline: #eeeeee 1px solid;}  
+  
                                        
 .card-content {padding: 20px 24px;}   
 
@@ -487,14 +486,14 @@ background-size: cover;}
 {flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-  outline: #eeeeee 1px solid;}
+  /*outline: #eeeeee 1px solid;*/}
   
 
-  .gallery > .list:hover, .gallery > .list:focus 
+  .card-link:hover, .card-link:focus 
   {box-shadow: 
     0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),                                       
-    1px 4px 6px rgba(0, 0, 0, 0.16);} 
+    1px 4px 6px rgba(0, 0, 0, 0.16);}
  
 .section-projects {
   padding-top: 94px;
